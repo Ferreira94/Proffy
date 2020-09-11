@@ -44,6 +44,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
           <strong>{teacher.cost}</strong>
         </p>
         <a 
+          // eslint-disable-next-line react/jsx-no-target-blank
           target="_blank" 
           onClick={createNewConnection}
           href={`https://wa.me/${teacher.whatsapp}`}>

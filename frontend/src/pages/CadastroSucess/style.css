@@ -1,0 +1,26 @@
+#sucess {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('../../assets/images/success-background.svg');
+  background-size: 100%;
+  background-color: var(--color-primary);
+  color: var(--color-title-in-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#sucess .container {
+  width: 100%;
+}
+
+#sucess .container h2, #sucess .container p{
+  margin-top: 2rem;
+}
+
+#sucess .container .container-button {
+  width: 40%;
+  margin: 5rem 0 0 30%;
+}
+
